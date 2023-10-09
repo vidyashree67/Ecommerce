@@ -1,0 +1,23 @@
+/* Styles for the quantity increment and decrement buttons */
+.quantity-increment-button, .quantity-decrement-button {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid #bbb;
+}
+
+/* Styles for the quantity input */
+.quantity-input {
+    width: 54px;
+    border: 1px solid #bbb;
+}
+
+/* Styles for the delete cart item icon */
+.deleteCartItemIcon {
+    font-size: 22px;
+}
+
+/* Styles for the delete cart item icon on hover */
+.deleteCartItemIcon:hover {
+    text-decoration: none;
+}

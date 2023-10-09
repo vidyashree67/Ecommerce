@@ -1,0 +1,45 @@
+/* Styles for the logo */
+.logo {
+    margin-bottom: -10px;
+}
+
+/* Styles for the search form */
+.search-form {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Styles for the search category and search bar */
+.search-category,
+.search-bar {
+    box-shadow: none;
+    outline: none;
+    border: none;
+}
+
+/* Styles for the search category */
+.search-category {
+    background: linear-gradient(180deg, #555 0%, #222 49%, #000 51%, #222 100%);
+    box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.5), 0px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+/* Styles for the search bar */
+.search-bar {
+    height: 35px;
+    width: 300px;
+}
+
+/* Media query for smaller screens (max-width: 600px) */
+@media screen and (max-width: 600px) {
+    /* Adjusted margin for the logo */
+    .logo {
+        margin-bottom: 15px;
+    }
+
+    /* Adjusted width for the search category and search bar */
+    .search-category {
+        width: 140px;
+    }
+    .search-bar {
+        width: 140px;
+    }
+}

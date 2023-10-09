@@ -1,0 +1,91 @@
+/* CSS for loading indicator */
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Styles for login form header */
+.login-header {
+  background: linear-gradient(150deg,#fcc3ca 0%,#df929e 50%,#b95a68 100%);
+}
+
+/* Styles for table header and form header */
+.table-header, .form-header {
+  background: linear-gradient(#fcc3ca,#df929e);
+}
+
+/* Adjust margins for specific elements */
+.margin-minus {
+  top: -12px;
+  left: -5px;
+}
+
+/* Apply justified text alignment */
+.text-justify {
+  text-align: justify;
+}
+
+/* Styles for glass button */
+.glass-btn {
+  position: relative;
+  background: linear-gradient(180deg,#555 0%,#222 49%, #000 51%,#222 100%);
+  color: #fff;
+  box-shadow: inset 0px 1px 0px rgba(255,255,255,.5),0px 1px 3px rgba(0,0,0,0.3);
+  border-color: #111;
+  letter-spacing: 3px;
+  font-weight: 600;
+  transition: 0.7s ease-in-out all;
+}
+
+/* Pseudo-element for glass button effects */
+.glass-btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(255,255,255,.2);
+  opacity: 0;
+  transition: 0.7s ease-in-out all;
+}
+
+/* Styles for glass button on hover */
+.glass-btn:hover, .glass-btn:hover .glass-icon {
+  color: #999;
+}
+
+/* Show pseudo-element on hover for glass button */
+.glass-btn:hover::before {
+  opacity: 1;
+}
+
+/* Styles for shiny button */
+.shiny-btn {
+  position: relative;
+  background: linear-gradient(180deg,#fcc3ca 0%,#df929e 49%, #b95a68 51%,#df929e 100%);
+  border-color: #d9a3a9;
+  letter-spacing: 2.5px;
+  text-shadow: 0 0 5px rgba(0,0,0,0.7);
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+  overflow: hidden;
+}
+
+/* Pseudo-element for shiny button effects */
+.shiny-btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(90deg, transparent, #fff, transparent);
+  transition: 0.5s ease-in-out;
+}
+
+/* Show pseudo-element on hover for shiny button */
+.shiny-btn:hover::before {
+  left: 100%;
+}

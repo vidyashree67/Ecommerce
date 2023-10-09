@@ -1,0 +1,16 @@
+/* Styles for social icons and email icon */
+.social-icon, .email-icon {
+    font-size: 25px;
+}
+
+/* Styles for social icons */
+.social-icon {
+    color: #fff;
+    transition: 0.5s ease-in-out all;
+}
+
+/* Styles for social icons on hover */
+.social-icon:hover {
+    color: #222;
+    cursor: pointer;
+}

@@ -1,0 +1,31 @@
+/* Styles for images */
+.img {
+    height: 300px;
+    width: 100vw;
+}
+
+/* Styles for the previous button in a slick slider */
+.slick-prev {
+    left: 10px !important;
+    z-index: 1100 !important;
+}
+
+/* Styles for the next button in a slick slider */
+.slick-next {
+    right: 30px !important;
+    z-index: 1100 !important;
+}
+
+/* Styles for the icon before the next and previous buttons in a slick slider */
+.slick-next::before, .slick-prev::before {
+    font-size: 40px !important;
+    color: rgba(0, 0, 0, 0.7) !important;
+}
+
+/* Media query for smaller screens (max-width: 600px) */
+@media screen and (max-width: 600px) {
+    .img {
+        height: 150px;
+    }
+}
+

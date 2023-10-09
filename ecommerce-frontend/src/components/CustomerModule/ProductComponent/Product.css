@@ -1,0 +1,47 @@
+/* Styles for the product card container */
+.product-card {
+    position: relative;
+    cursor: pointer;
+    width: 92%;
+    height: 300px;
+    margin-bottom: 10px;
+}
+
+/* Styles for the product card footer */
+.product-card .product-card-footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background: rgba(0, 0, 0, 0.8);
+    border: none;
+    overflow: hidden;
+    transition: 0.3s all;
+}
+
+/* Styles for the content within the product card footer */
+.product-card .product-card-footer .content {
+    display: none;
+}
+
+/* Styles for the product card footer on hover */
+.product-card:hover .product-card-footer {
+    height: 130px;
+}
+
+/* Styles for the content within the product card footer on hover */
+.product-card:hover .content {
+    display: block;
+}
+
+/* Styles for the product price */
+.product-price {
+    font-size: 20px;
+}
+
+/* Styles for the add-to-cart button */
+.add-to-cart-button {
+    color: #fff;
+    transition: 0.7s ease-in-out all;
+}
